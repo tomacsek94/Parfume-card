@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@400;600;700;800;900&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;500;700&family=Irish+Grover&family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&family=Lato:wght@400;700&family=Lexend+Deca&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@600&family=Outfit:wght@400;700&family=Poppins:wght@300&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@300&family=Source+Sans+3:wght@400;900&family=Tektur:wght@400..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@400;600;700;800;900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;500;700&family=Irish+Grover&family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&family=Lato:wght@400;700&family=Lexend+Deca&family=Montserrat:ital,wght@0,700;1,700&family=Orbitron:wght@600&family=Outfit:wght@400;700&family=Poppins:wght@300&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@300&family=Source+Sans+3:wght@400;900&family=Tektur:wght@400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 180px;
+  height: 70vh;
+}
+
+.img {
+  width: 500px;
+}
+
+.product-details {
+  background-color: #fff;
+  width: 500px;
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+}
+
+.perfume {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+.header {
+  font-size: 50px;
+  font-family: "Fraunces";
+  line-height: 47px;
+  margin-left: 40px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  margin-left: 40px;
+  line-height: 37px;
+}
+
+.price {
+  display: flex;
+  margin-left: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.price-new {
+  font-size: 50px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+}
+
+.price-old {
+  font-size: 25px;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  padding-right: 100px;
+}
+
+.button {
+  padding: 20px 60px;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  margin-left: 40px;
+  width: 400px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.cart {
+  margin-right: 10px;
+}
